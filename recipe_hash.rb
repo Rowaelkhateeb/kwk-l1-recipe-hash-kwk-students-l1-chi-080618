@@ -28,7 +28,7 @@ end
 
 puts "Challenge 3"
 def ingredients_and_amounts(perfect_10_recipe)
-  perfect_10_recipe.each do |x,y|
+  perfect_10_recipe.each do |x|
     puts"#{x}"
   end
 end
